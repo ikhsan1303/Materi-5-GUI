@@ -27,6 +27,7 @@ public class kuis1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -39,7 +40,19 @@ public class kuis1 extends javax.swing.JFrame {
         Nilai = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         Hasil = new javax.swing.JTextArea();
-        jPanel1 = new javax.swing.JPanel();
+
+        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 440, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -94,22 +107,6 @@ public class kuis1 extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(30, 270, 310, 130);
-
-        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 440, Short.MAX_VALUE)
-        );
-
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(-10, 0, 400, 440);
 
         setSize(new java.awt.Dimension(402, 469));
         setLocationRelativeTo(null);
